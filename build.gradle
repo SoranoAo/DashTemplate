@@ -29,3 +29,7 @@ dependencies {
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 	testCompile 'junit:junit:4.+'
 }
+
+buildDir = 'out'
+sourceSets.main.output.classesDir = file("$buildDir/classes")
+sourceSets.main.output.resourcesDir = file("$buildDir/classes")
