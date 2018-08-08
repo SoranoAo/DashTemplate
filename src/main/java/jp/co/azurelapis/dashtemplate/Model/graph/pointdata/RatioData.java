@@ -1,4 +1,4 @@
-package jp.co.azurelapis.dashtemplate.Model.Graph.PointData;
+package jp.co.azurelapis.dashtemplate.model.graph.pointdata;
 
 /**
  * 円グラフ等を構成する1つのアイテムの割合を示すデータ

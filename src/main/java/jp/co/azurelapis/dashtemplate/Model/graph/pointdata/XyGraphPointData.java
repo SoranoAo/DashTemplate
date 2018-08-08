@@ -1,4 +1,4 @@
-package jp.co.azurelapis.dashtemplate.Model.Graph.PointData;
+package jp.co.azurelapis.dashtemplate.model.graph.pointdata;
 
 /**
  * グラフの一点を示すIF

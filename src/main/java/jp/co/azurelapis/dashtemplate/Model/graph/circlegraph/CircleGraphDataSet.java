@@ -1,7 +1,7 @@
-package jp.co.azurelapis.dashtemplate.Model.Graph.CircleGraph;
+package jp.co.azurelapis.dashtemplate.model.graph.circlegraph;
 
-import jp.co.azurelapis.dashtemplate.Model.Graph.GraphDataSetBase;
-import jp.co.azurelapis.dashtemplate.Model.Graph.PointData.RatioData;
+import jp.co.azurelapis.dashtemplate.model.graph.GraphDataSetBase;
+import jp.co.azurelapis.dashtemplate.model.graph.pointdata.RatioData;
 
 import java.util.List;
 

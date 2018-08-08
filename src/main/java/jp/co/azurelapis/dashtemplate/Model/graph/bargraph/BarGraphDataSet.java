@@ -1,7 +1,7 @@
-package jp.co.azurelapis.dashtemplate.Model.Graph.BarGraph;
+package jp.co.azurelapis.dashtemplate.model.graph.bargraph;
 
-import jp.co.azurelapis.dashtemplate.Model.Graph.GraphDataSetBase;
-import jp.co.azurelapis.dashtemplate.Model.Graph.PointData.XyGraphPointData;
+import jp.co.azurelapis.dashtemplate.model.graph.GraphDataSetBase;
+import jp.co.azurelapis.dashtemplate.model.graph.pointdata.XyGraphPointData;
 
 import java.util.List;
 

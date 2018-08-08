@@ -1,4 +1,4 @@
-package jp.co.azurelapis.dashtemplate.Model.Graph;
+package jp.co.azurelapis.dashtemplate.model.graph;
 
 
 import java.util.List;
