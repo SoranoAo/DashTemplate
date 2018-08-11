@@ -1,6 +1,7 @@
 package jp.co.azurelapis.dashtemplate.model.graph.bargraph;
 
-import com.sun.istack.internal.NotNull;
+
+import edu.umd.cs.findbugs.annotations.NonNull;
 import jp.co.azurelapis.dashtemplate.model.graph.pointdata.XyGraphPointData;
 
 import java.util.ArrayList;
@@ -59,7 +60,7 @@ public class BasicBarGraphDataSet implements BarGraphDataSet {
     }
 
     @Override
-    @NotNull
+    @NonNull
     public List<XyGraphPointData> getDataSet() {
         return this.graphPointDataSet;
     }
