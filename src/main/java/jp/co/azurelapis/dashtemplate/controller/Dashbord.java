@@ -1,7 +1,9 @@
 package jp.co.azurelapis.dashtemplate.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.io.IOException;
@@ -14,11 +16,10 @@ import java.io.IOException;
 public class Dashbord {
 
 
-    @RequestMapping(value="/dashbord")
-    @ResponseBody
-    public String initDashbord() throws IOException {
+    @RequestMapping(value="/dashbord" ,method = RequestMethod.GET)
+    public String initDashbord(Model model) throws IOException {
 
-        return "dash bord test";
+        return "dashbord";
     }
 
 

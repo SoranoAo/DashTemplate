@@ -1,5 +1,6 @@
 package jp.co.azurelapis.dashtemplate;
 
+
 import jp.co.azurelapis.dashtemplate.model.graph.pointdata.BasicXyGraphPointData;
 
 import static org.junit.Assert.*;

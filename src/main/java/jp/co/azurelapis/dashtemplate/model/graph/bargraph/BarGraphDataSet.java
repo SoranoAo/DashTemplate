@@ -1,7 +1,7 @@
 package jp.co.azurelapis.dashtemplate.model.graph.bargraph;
 
 import jp.co.azurelapis.dashtemplate.model.graph.GraphDataSetBase;
-import jp.co.azurelapis.dashtemplate.model.graph.pointdata.XyGraphPointData;
+import jp.co.azurelapis.dashtemplate.model.graph.pointdata.BarGraphData;
 
 import java.util.List;
 
@@ -17,7 +17,7 @@ public interface BarGraphDataSet extends GraphDataSetBase {
      * @return 棒グラフの１点分のデータのリストを返却する
      */
     @Override
-    public List<XyGraphPointData> getDataSet();
+    public List<BarGraphData> getDataSet();
 
 
 }
